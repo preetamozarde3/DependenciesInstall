@@ -1,0 +1,15 @@
+#!/bin/bash
+
+$ cat requirements.txt 
+requests
+simplejson
+
+$ mkvirtualenv --system-site-packages test
+
+$ pip install -r requirements.txt
+
+$ pip install -r requirements.txt
+
+$ deactivate
+
+$ rmvirtualenv test
